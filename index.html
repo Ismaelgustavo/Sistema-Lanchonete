@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body onload="carregaDados()">
+    <header>
+        <div><img src="img/thumbnail_1345532022033062448941b37f5.webp" alt=""></div>
+    </header>
+    <section>
+        <div> 
+            <h3>Pizza</h3>
+            <div class="pizza">
+                <p><button onclick="listaPedido('pizza1')" >+</button></p>
+                <p id="p1"></p>
+            </div>
+            <div class="pizza"> 
+                <p><button onclick="listaPedido('pizza2')">+</button></p>
+                <p id="p2"></p>
+            </div>
+            <div class="pizza"> 
+                <p><button onclick="listaPedido('pizza3')">+</button></p>
+                <p id="p3"></p>
+            </div>    
+        </div>
+        <div>
+            <h3>Lanche</h3>
+            <div class="lanche">
+                <p><button onclick="listaPedido('lanche1')" >+</button></p>
+                <p id="l1"></p>
+            </div>
+            <div class="lanche"> 
+                <p><button onclick="listaPedido('lanche2')">+</button></p>
+                <p id="l2"></p>
+            </div>
+            <div class="lanche"> 
+                <p><button onclick="listaPedido('lanche3')">+</button></p>
+                <p id="l3"></p>
+            </div>
+        </div>
+        <div>
+            <h3>Salgadinho</h3>
+            <div class="salgadinho">
+                <p><button onclick="listaPedido('sal1')" >+</button></p>
+                <p id="s1"></p>
+            </div>
+            <div class="salgadinho"> 
+                <p><button onclick="listaPedido('sal2')">+</button></p>
+                <p id="s2"></p>
+            </div>
+            <div class="salgadinho"> 
+                <p><button onclick="listaPedido('sal3')">+</button></p>
+                <p id="s3"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/js/lanchonete.js"></script>
+    <script src="src/js/prato.js"></script>
+    <script src="src/js/SetAtributes.js"></script>
+
+</body>
+</html>
